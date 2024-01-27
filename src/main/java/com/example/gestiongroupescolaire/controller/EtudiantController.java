@@ -47,4 +47,6 @@ public class EtudiantController {
         existingEtudiant.setPassword(etudiant.getPassword());
         return etudiantService.addEtudiant(existingEtudiant);
     }
+
+    ////////////////////////test
 }
